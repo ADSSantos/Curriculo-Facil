@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Nunito, Nunito_Sans } from "next/font/google";
-import "./globals.css";
+import "/style/globals.css";
 import cn from "classnames";
 
 const fontSans = Nunito_Sans({ subsets: ["latin"], variable: "--font-sans" });
@@ -18,7 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={cn(fontTitle.variable, fontSans.variable)}>
+      <body
+        className={cn(
+          "min-h-screen bg-background font-sans antialiased",
+          fontTitle.variable,
+          fontSans.variable
+        )}
+      >
         {children}
       </body>
     </html>
