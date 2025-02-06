@@ -1,7 +1,7 @@
 
 import { ReactNode } from "react";
 import Logo from "../../assets/logo.svg";
-import { NavItems } from "../components/pages/dashboard/nav-items";
+import { NavItems } from "@/components/pages/dashboard/nav-items";
 
 
 
