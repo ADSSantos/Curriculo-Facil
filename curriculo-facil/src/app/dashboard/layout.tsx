@@ -18,6 +18,10 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
         </div>
 
         <NavItems/>
+
+        <div className="w-full mt-auto border-t border-muted px-3 py-4 flex items-center justify-between">
+
+        </div>
       </aside>
 
       <main>{children}</main>
