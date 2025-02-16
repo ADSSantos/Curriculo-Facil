@@ -24,7 +24,7 @@ export const ResumeCardButton = ({title, description, icon}: ResumeCardButtonPro
 export const ResumesCard = () => {
   return (
     
-        <Link href="dashboard/resumes/example" className="block w-full">
+        <Link href="resumes/example" className="block w-full">
         <ResumeCardButton
             title="Meu curriculo"
             description="Última atualização há 22 minutos"

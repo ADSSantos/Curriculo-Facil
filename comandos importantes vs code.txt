@@ -1,0 +1,24 @@
+1. Pesquisa Geral no Arquivo
+Ctrl + F (Windows/Linux) ou Cmd + F (macOS): Abre a barra de pesquisa no arquivo atual. Você pode digitar o nome da rota ou caminho que está procurando.
+
+2. Pesquisa em Todos os Arquivos
+Ctrl + Shift + F (Windows/Linux) ou Cmd + Shift + F (macOS): Abre a pesquisa global em todos os arquivos do projeto. Aqui você pode pesquisar por rotas ou caminhos em todos os arquivos .tsx ou outros.
+
+3. Navegação por Símbolos
+Ctrl + Shift + O (Windows/Linux) ou Cmd + Shift + O (macOS): Abre a navegação por símbolos no arquivo atual. Isso é útil para encontrar rapidamente componentes, funções, ou rotas definidas no arquivo.
+
+4. Go to Definition
+F12 ou Ctrl + Clique (Windows/Linux) ou Cmd + Clique (macOS): Se você estiver em uma rota ou caminho que foi importado de outro arquivo, você pode usar esse atalho para ir diretamente para a definição daquela rota ou componente.
+
+5. Pesquisa por Referências
+Shift + F12: Abre o painel de referências para o símbolo selecionado. Isso é útil para ver onde uma rota ou caminho está sendo usado em todo o projeto.
+
+6. Extensões Úteis
+Next.js IntelliSense: Se você ainda não tem, instale a extensão "Next.js IntelliSense" no VS Code. Ela fornece autocompletar e navegação mais eficiente para rotas e componentes no Next.js.
+
+Path IntelliSense: Outra extensão útil que autocompleta caminhos de arquivos, o que pode ser muito útil ao trabalhar com rotas e importações.
+
+7. Pesquisa por Arquivos
+Ctrl + P (Windows/Linux) ou Cmd + P (macOS): Abre a pesquisa rápida de arquivos. Você pode digitar o nome do arquivo que contém a rota ou caminho que você está procurando.
+
+Esses atalhos e funcionalidades devem ajudar você a navegar e pesquisar rotas e caminhos em seus arquivos .tsx no Next.js com mais eficiência.
