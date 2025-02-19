@@ -31,12 +31,11 @@ export const Dialog = ({children, title, description, content, open, setOpen}: D
 
   <DialogContent>
     <DialogHeader>
-      <DialogTitle>{title}</DialogTitle>
-      { children && <DialogDescription asChild>{children}</DialogDescription>}
-        
-      
+        <DialogTitle>{title}</DialogTitle>
+        {description && <DialogDescription asChild>{description}</DialogDescription>}
     </DialogHeader>
-  </DialogContent>
+    {content}  {/* Aqui está o content */}
+</DialogContent>
 </DialogRoot>
 
     )
